@@ -3,7 +3,10 @@ import React from 'react';
 
 function App() {
   return ( 
-    <h1>From feature branch</h1>
+    <div>
+      <h1>From feature branch</h1>
+    <h1>Bla</h1>
+    </div>
    );
 }
 
