@@ -10,6 +10,6 @@ test('renders klk tag', () => {
 
 test('renders klk tag', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/klk/);
+  const linkElement = getByText(/Bla/);
   expect(linkElement).toBeInTheDocument();
 });
